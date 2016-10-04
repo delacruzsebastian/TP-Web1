@@ -1,0 +1,92 @@
+
+/*
+Prefijos de compatibilidad:
+
+- moz-: Mozzilla
+-webkit-: Zafari & Chrome
+-o-: Opera
+-khtml-: konqueror
+-chrom-: Chrome
+-ms-: explorer
+
+*/
+/*/Header*/
+nav{
+
+    background-color: black;
+    width: 100%;
+    padding: 0.3px!important;
+}
+
+nav ul{
+    text-align: center;
+}
+h1{
+    margin: 0px;
+}
+
+
+table th,
+table td{
+    border:solid 1px;
+}
+
+nav ul > li,
+nav ul > li a{
+    margin-right: 15px;
+    display: inline-block;
+    color:white;
+    background-color: black;
+    padding:5px!important;
+}
+body{
+     overflow-y:hidden;
+}
+header div{
+    display: inline-block;
+}
+header{
+    width: 100%;
+}
+object{
+    width: 100%;
+    margin: 0px;
+    outline: none;
+    
+}
+.logoHeader{
+    width:100px;
+    height: 50px;
+    
+}
+.child_nav{    
+    display: none;
+    position: absolute;
+}
+.child_nav li{    
+    display: table-row;
+}
+nav li:hover > .child_nav {    
+    background-color: red!important;
+    display: block;   
+}
+
+/*/Header*/
+a{
+    text-decoration: none;
+    color:black;
+    padding:5px;
+    color:white;
+    background-color: #E42E2E;
+}
+a:hover{
+    background-color: #E95E5E;
+}			
+.sectionInfo
+.informacionBasica.otraClase{
+    /*Abarca a todo elemento que tiene la clase "informacionBasica Y "otraClase"*/
+}
+.informacionBasica ul > li{
+
+}
+
